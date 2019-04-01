@@ -1,0 +1,9 @@
+dependencies {
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-gradle-plugin
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '4.3.7.Final'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-envers
+    compile group: 'org.hibernate', name: 'hibernate-envers', version: '4.3.7.Final'
+
+    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
+
+}
